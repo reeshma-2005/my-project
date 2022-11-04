@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(../images/graphic-design-portfolio.jpg);
+    background-size:cover;
+}
+#box h1{
+   color:beige;
+   text-align: center;
+}
+/*header*/
+
+header{
+    background-color:blue;
+}
+
+#logo{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav{
+    float:right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    /*border:1px solid white;*/
+    padding:10px;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav a:hover{
+    background-color: teal;
+    color:black
+}
+
+aside{
+    border:2px solid white;
+    color:red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin: 100px;
+    padding-left: 20px;
+    
+   width: 25%; 
+
+}
+aside p{
+    padding: 2px;
+    
+
+}
+
+
+form{
+    border:1px solid red;
+    float:right;
+    margin:100px;
+    margin-top: 60px;
+    margin-right: 20px;
+    height: 20em;
+    width:20%;
+    padding:25px;
+    background-color: blueviolet;
+    margin-bottom: 25%;
+    padding: 25px;
+    /*background-color: beige;
+    margin-bottom: 60px;*/
+    
+}
+
+form button{
+    color:brown;
+    background-color: aquamarine;
+    align-content: center;
+    width: 60%;
+    border:none;
+    padding:5px;
+    margin-left: 20%;
+}
+
+.container div{
+    float:left;
+    width:40%;
+    border:1px solid white;
+    height: 10em;
+    background-color:darkblue;
+    margin-left: 5px;
+    padding: 5px;
+    margin-left: 30px;
+    padding-left:20px;
+
+}
+
+.container h3{
+    text-align: center;
+    color:chocolate;
+}
+.container ul{
+    color:aqua;
+}
+.container h4{
+    color:aqua;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 1.5em;
+    
+    margin-top: 60%;
+    padding-top: 6px;
+    padding-left: 30%;
+    /*margin-left: 60px;*/
+}
